@@ -11,19 +11,19 @@
 #X text 426 145 eNTRADAS;
 #X obj 79 385 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -4032
 -1 -1 6700 1;
-#X text 101 409 sAÍDAS;
+#X text 101 409 sAIDAS;
 #X obj 76 480 osc~ 1000;
 #X obj 77 595 dac~;
 #X obj 138 533 *~;
-#X text 7 64 Procura as portas;
-#X text 74 101 Abre /dev/ttyUSB1;
-#X text 103 142 Fecha a porta;
-#X text 110 188 Manda acender o led;
-#X text 200 218 Manda apagar led;
-#X text 377 98 Controla o brilho do led;
-#X text 94 365 vALORES DO POT;
-#X text 88 458 oSCILADOR COSSENOIDAL COM FREQ INICIAL DE 1000 HZ;
-#X text 178 534 aMPLITUDE DA SAÍDA É DITADA PELO BRILHO DO LED;
+#X text 7 64 pROCURA aS pORTAS;
+#X text 74 101 aBRE /dev/ttyUSB1;
+#X text 103 142 fECHA A pORTA;
+#X text 110 188 mANDA aCENDER O lED;
+#X text 200 218 mANDA aPAGAR lED;
+#X text 377 98 cONTROLA O bRILHO dO lED;
+#X text 94 365 vALORES dO pOT;
+#X text 88 458 oSCILADOR cOSSENOIDAL cOM fREQ iNICIAL dE 1000 HZ;
+#X text 178 534 aMPLITUDE dA sAIDA eH dITADA pELO bRILHO dO lED;
 #X obj 8 -43 bng 30 250 50 0 empty empty empty 17 7 0 10 -4034 -1 -1
 ;
 #X connect 0 0 3 0;
